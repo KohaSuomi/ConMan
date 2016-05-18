@@ -1,0 +1,7 @@
+#Nice :)
+
+lxc.rootfs = /var/lib/lxc/testlxc/rootfs
+lxc.utsname = testlxc
+lxc.network.ipv4 = 10.0.3.23/24
+
+

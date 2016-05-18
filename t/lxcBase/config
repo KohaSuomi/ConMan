@@ -1,0 +1,16 @@
+# Distribution configuration
+lxc.include = /usr/share/lxc/config/ubuntu.common.conf
+lxc.arch = x86_64
+
+# Container specific configuration
+lxc.rootfs = /var/lib/lxc/lxcBase/rootfs
+lxc.utsname = lxcBase
+
+# Network configuration
+lxc.network.type = veth
+lxc.network.flags = up
+lxc.network.link = lxcbr0
+lxc.network.hwaddr = 00:16:3e:00:fe:19
+lxc.network.ipv4 = 10.0.3.22/24
+
+lxc.hook.clone = /home/jenkins/scripts/configure.pl

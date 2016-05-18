@@ -1,0 +1,13 @@
+INSTALL DEPENDENCIES:
+
+  1. cpan App::cpanminus
+  2. cpanm <all Perl-modules in the <BASEPATH>/cpanfile
+
+TEST MODE:
+
+  Set $ENV{CONMAN_CONF} to <BASEPATH>/config/test.conf
+
+PRODUCTION MODE:
+
+  Set $ENV{CONMAN_CONF} to <BASEPATH>/config/your-own-configuration.conf
+

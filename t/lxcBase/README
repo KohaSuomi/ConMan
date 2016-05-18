@@ -1,0 +1,5 @@
+This directory simulates a LXC-container filesystem hierarchy with configuration
+files in proper directories.
+
+This is cloned using test tools and the configuration files are overlayed from
+managed configurations.
